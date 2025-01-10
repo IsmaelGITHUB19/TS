@@ -1,0 +1,94 @@
+#include <stdio.h>
+#include <string.h>
+//1
+/*int main (){
+    int indice = 13;
+    int soma = 0;
+    int k;
+    printf("Adicione valor para K\n");
+    scanf("%d",&k);
+    if(k<indice){
+        k = k+1;
+        soma = soma + k;
+         printf("Valor de soma=%d",soma);
+    }
+    else{
+        printf("Seu valor ja eh maior que o indice");
+        return;
+    }
+
+}*/
+
+//2
+/*int main (){
+   int numero, a = 0, b = 1, temp;
+    printf("Adicione valor para a variavel\n");
+    scanf("%d",&numero);
+   if (numero == 0 || numero == 1) {
+        printf("O numero %d pertence a sequencia de Fibonacci.\n", numero);
+        return 0;
+    }
+    while (b <= numero) {
+        if (b == numero) {
+            printf("O numero %d pertence a sequencia de Fibonacci.\n", numero);
+            return 0;
+        }
+        temp = a;
+        a = b;
+        b = temp + b;
+    }
+      printf("O numero %d nao pertence a sequencia de Fibonacci.\n", numero);
+
+    return 0;
+
+}*/
+
+//4
+/*
+int main() {
+    double sp = 67836.43;
+    double rj = 36678.66;
+    double mg = 29229.88;
+    double es = 27165.48;
+    double outros = 19849.53;
+
+    double total = sp + rj + mg + es + outros;
+
+    double sp_percentage = (sp / total) * 100;
+    double rj_percentage = (rj / total) * 100;
+    double mg_percentage = (mg / total) * 100;
+    double es_percentage = (es / total) * 100;
+    double outros_percentage = (outros / total) * 100;
+
+    printf("Percentual de representação por estado:\n");
+    printf("SP: %.2f%%\n", sp_percentage);
+    printf("RJ: %.2f%%\n", rj_percentage);
+    printf("MG: %.2f%%\n", mg_percentage);
+    printf("ES: %.2f%%\n", es_percentage);
+    printf("Outros: %.2f%%\n", outros_percentage);
+
+    return 0;
+}*/
+//5
+/*
+int main() {
+    char str[] = "Exemplo de string";  // String previamente definida
+    int length = strlen(str);  // Obter o comprimento da string
+    char temp;
+
+    // Invertendo a string manualmente
+    for (int i = 0; i < length / 2; i++) {
+        temp = str[i];
+        str[i] = str[length - i - 1];
+        str[length - i - 1] = temp;
+    }
+
+    // Exibir a string invertida
+    printf("String invertida: %s\n", str);
+
+    return 0;
+}*/
+
+
+
+
